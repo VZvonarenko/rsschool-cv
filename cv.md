@@ -1,7 +1,5 @@
 # Vladimir Zvonarenko
 
----
-
 ## My Contact 
 * Tel: +79236489887
 * Email: vzvonarenko@gmail.com
@@ -9,8 +7,8 @@
 ---
 
 ## About me
-I study Web development myself. 
-Now I work, and in my free time I study frontend at RSSchool!
+_I study Web development myself. Now I work, and in my free time I study frontend at RSSchool!_
+
 ---
 
 ## Sample code
@@ -27,22 +25,22 @@ function pow(x, n) {
 ---
 
 ## Skills
-*HTML*
-*CSS*
-*Bootstrap*
-*GIT*
-*JavaScript (basics)*
-*РHP (basics)*
-*VS Code, IntelliJ IDEA*
-*Photoshop, Avocode, Zeplin*
+* HTML
+* CSS
+* Bootstrap
+* GIT
+* JavaScript (basics)
+* РHP (basics)
+* VS Code, IntelliJ IDEA
+* Photoshop, Avocode, Zeplin
 ---
 
 ## Education 
-Altai State Technical University
-
+* [Altai State Technical University](https://en.altstu.ru/ "ALTSTU")
+* [Digital Space](https://dspace.pro/ "Digital Space")
 ---
 
 ## Languages 
-Russian
-English (reading)
+* Russian
+* English (reading)
 ---
