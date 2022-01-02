@@ -33,14 +33,17 @@ function pow(x, n) {
 * РHP (basics)
 * VS Code, IntelliJ IDEA
 * Photoshop, Avocode, Zeplin
+
 ---
 
 ## Education 
 * [Altai State Technical University](https://en.altstu.ru/ "ALTSTU")
 * [Digital Space](https://dspace.pro/ "Digital Space")
+
 ---
 
 ## Languages 
 * Russian
 * English (reading)
+
 ---
