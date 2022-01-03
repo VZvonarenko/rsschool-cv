@@ -1,0 +1,222 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        max-width: 1280px;
+        min-height: 100%;
+        margin: 0 auto;
+        border: 5px solid #000000;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.712);
+        background-color: #ffffff;
+        font-size: 20px;
+    }
+    
+    .container {
+        width: 1000px;
+        margin: 0 auto;
+        min-height: 50px;
+        padding: 0 20px;
+    }
+    
+    .nav-list {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+    
+    .nav-link {
+        position: relative;
+        padding-left: 40px;
+        text-decoration: none;
+        font-weight: 700;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: #000;
+    }
+    
+    .nav-link:hover {
+        text-decoration: underline;
+        color: #ff0000;
+    }
+    
+    .main-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .section {
+        width: 50%;
+        padding-top: 30px;
+    }
+    
+    .section-profile {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 50px 30px 35px;
+        border-bottom: 5px solid #000;
+    }
+    
+    .section-profile-photo {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .section-profile-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    
+    .main-title {
+        position: relative;
+        margin-bottom: 20px;
+        color: #000;
+        font-weight: 600;
+        letter-spacing: 10px;
+        line-height: 50px;
+        word-spacing: 3px;
+    }
+    
+    .section-title {
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        letter-spacing: 0px;
+    }
+    
+    .section-subtitle {
+        margin-top: 20px;
+        color: #000;
+        font-weight: 300;
+        letter-spacing: 2px;
+    }
+    
+    .section-list {
+        list-style: none;
+    }
+    
+    .section-item {
+        position: relative;
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+        padding-left: 30px;
+    }
+    
+    #skills .section-item::before {
+        content: "\005B";
+        color: #ff0000;
+    }
+    
+    #skills .section-item::after {
+        content: "\005D";
+        color: #ff0000;
+    }
+    
+    .item-phone::before {
+        position: absolute;
+        content: "";
+        left: -5px;
+        top: -4px;
+        width: 32px;
+        height: 32px;
+        background-image: url("assets/img/phone.svg");
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-color: #fff;
+    }
+    
+    .item-email::before {
+        position: absolute;
+        content: "";
+        left: -5px;
+        top: -4px;
+        width: 32px;
+        height: 32px;
+        background-image: url("assets/img/mail.svg");
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-color: #fff;
+    }
+    
+    .item-location::before {
+        position: absolute;
+        content: "";
+        left: -10px;
+        top: -4px;
+        width: 40px;
+        height: 43px;
+        background-image: url("assets/img/location.svg");
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-color: #fff;
+    }
+    
+    .section-link {
+        text-decoration: none;
+        color: #000;
+    }
+    
+    .section-link:hover {
+        text-decoration: underline;
+        color: #ff0000;
+    }
+    
+    .section-link::before {
+        content: "\27A4 ";
+    }
+    
+    .footer-container {
+        border-top: 5px solid #000;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: #000;
+        padding: 10px 0;
+    }
+    
+    .github {
+        position: relative;
+        color: #000;
+        text-decoration: none;
+    }
+    
+    .github:hover {
+        text-decoration: underline;
+        color: #ff0000;
+    }
+    
+    .github::before {
+        position: absolute;
+        content: "";
+        left: -31px;
+        top: -5px;
+        width: 32px;
+        height: 32px;
+        background-image: url("assets/img/github.svg");
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-color: #fff;
+    }
+    
+    .section-title:first-letter {
+        color: #ff0000;
+    }
+    
+    .rsschool {
+        width: 100px;
+        height: 35px;
+        background-image: url("./assets/img/rs_school_js.svg");
+        background-repeat: no-repeat;
+    }
