@@ -102,18 +102,7 @@
         letter-spacing: 2px;
     }
     
-    .section-contact {
-        position: relative;
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        padding: 50px 30px 35px;
-        border-bottom: 15px solid #aad8b0;
-    }
-    
     .section-list {
-        margin: 0;
-        padding: 0;
         list-style: none;
     }
     
